@@ -11833,7 +11833,7 @@ p {
   padding: 0;
   font-size: 18px;
   line-height: 28px;
-    color: #afb48d;
+  color: var(--font-color);
 }
 
 li {
@@ -21624,7 +21624,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-    background: #c6bc64;
+  background: var(--primary-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
@@ -21650,7 +21650,7 @@ footer {
 
 .breadcrumb-bg-about:before {
   content: "";
-background: rgb(115 118 82 / 90%);
+  background: var(--bg-layer);
   position: absolute;
   top: 0;
   bottom: 0;
